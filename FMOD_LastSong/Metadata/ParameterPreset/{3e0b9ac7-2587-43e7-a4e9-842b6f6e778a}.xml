@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{525e9b19-745a-4987-a447-04ab5a3cb5ee}">
+	<object class="ParameterPreset" id="{3e0b9ac7-2587-43e7-a4e9-842b6f6e778a}">
 		<property name="name">
-			<value>Distance</value>
+			<value>To Fish</value>
 		</property>
 		<relationship name="folder">
 			<destination>{673c0ffb-e20a-4b83-b9a3-e70bcf30308c}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{3b2b1c91-cb80-459d-b6cd-6efc429c26a0}</destination>
+			<destination>{935e5257-ae35-46bb-ba92-db99e727b122}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{3b2b1c91-cb80-459d-b6cd-6efc429c26a0}">
+	<object class="GameParameter" id="{935e5257-ae35-46bb-ba92-db99e727b122}">
 		<property name="parameterType">
 			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>100</value>
+			<value>250</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
