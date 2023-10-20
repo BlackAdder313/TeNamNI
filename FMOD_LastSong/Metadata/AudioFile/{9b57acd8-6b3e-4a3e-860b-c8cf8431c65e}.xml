@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9b57acd8-6b3e-4a3e-860b-c8cf8431c65e}">
+		<property name="assetPath">
+			<value>Menu_Brushes.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>72</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a55e79e-7c5d-4761-837d-4541e4756150}</destination>
+		</relationship>
+	</object>
+</objects>

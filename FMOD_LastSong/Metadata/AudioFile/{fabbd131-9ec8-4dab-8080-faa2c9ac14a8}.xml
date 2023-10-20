@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fabbd131-9ec8-4dab-8080-faa2c9ac14a8}">
+		<property name="assetPath">
+			<value>Untitled_video_-_Made_with_Clipchamp.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2481179138321994</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a55e79e-7c5d-4761-837d-4541e4756150}</destination>
+		</relationship>
+	</object>
+</objects>
