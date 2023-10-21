@@ -68,7 +68,7 @@
 			<destination>{8f93c0de-63b6-47e5-9e2d-9b7fea6fdea8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a32e8d1a-a1ad-4eca-8f7e-e7e7fa4e7fcd}</destination>
+			<destination>{3e71155a-102d-4c49-8632-876c656ad48f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0b06f87c-149b-4482-b720-969c0541a7d6}" />
@@ -543,6 +543,8 @@
 	<object class="MixerBusEffectChain" id="{513b5113-1050-4838-9435-4d6724876397}">
 		<relationship name="effects">
 			<destination>{babd7508-f4f1-4a90-8b6f-6a81c0a83343}</destination>
+			<destination>{87531345-773a-4c10-a2a6-2d7aa23fe003}</destination>
+			<destination>{0060b196-4974-416f-ba9a-5761fd0847f8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{737e9d38-1e83-46b2-88e2-f297ba0624ab}" />
@@ -752,6 +754,22 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{babd7508-f4f1-4a90-8b6f-6a81c0a83343}" />
+	<object class="CompressorEffect" id="{87531345-773a-4c10-a2a6-2d7aa23fe003}">
+		<property name="threshold">
+			<value>-19</value>
+		</property>
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{0060b196-4974-416f-ba9a-5761fd0847f8}">
+		<property name="boost">
+			<value>6.80000019</value>
+		</property>
+		<property name="ceiling">
+			<value>-4.70000029</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{056ea7c4-9290-4d53-bd8f-6aeaa3929011}">
 		<property name="position">
 			<value>0</value>

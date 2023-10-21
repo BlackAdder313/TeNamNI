@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{5962ae89-4afd-4fc6-9a6a-36d2133b1fb0}">
+		<property name="name">
+			<value>Monster and Ship</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{dc797f6c-7c4f-419a-93a8-af0e132f0fe1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{948613c8-771e-4678-83f2-a66bcb64b748}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a32e8d1a-a1ad-4eca-8f7e-e7e7fa4e7fcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{dc797f6c-7c4f-419a-93a8-af0e132f0fe1}">
+		<relationship name="effects">
+			<destination>{0c96e200-d20f-4e0a-bf6d-dcdbffaee1a6}</destination>
+			<destination>{52557181-13a1-42a0-8bb0-e0be3d1e2293}</destination>
+			<destination>{ca72775d-eb6b-48c2-b9a0-79c049823240}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{948613c8-771e-4678-83f2-a66bcb64b748}" />
+	<object class="CompressorEffect" id="{0c96e200-d20f-4e0a-bf6d-dcdbffaee1a6}">
+		<property name="threshold">
+			<value>-16.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.70000005</value>
+		</property>
+		<property name="gain">
+			<value>5</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{52557181-13a1-42a0-8bb0-e0be3d1e2293}" />
+	<object class="LimiterEffect" id="{ca72775d-eb6b-48c2-b9a0-79c049823240}">
+		<property name="boost">
+			<value>1.60000002</value>
+		</property>
+		<property name="ceiling">
+			<value>-1.39999998</value>
+		</property>
+	</object>
+</objects>
