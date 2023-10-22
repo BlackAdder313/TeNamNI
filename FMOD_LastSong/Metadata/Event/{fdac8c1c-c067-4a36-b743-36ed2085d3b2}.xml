@@ -1051,25 +1051,6 @@
 			<value>1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{e42135df-4c74-4923-8ca1-75616845416a}">
-		<property name="position">
-			<value>80</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<property name="curveShape">
-			<value>0.25471893</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{399218f3-608a-42ee-9982-ce654567154f}">
-		<property name="position">
-			<value>85</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{314e1a98-c91a-4514-bbf2-c3fae0d089d3}" />
 	<object class="MultibandEqEffect" id="{7d9f4175-326b-467c-9970-2e1ff8ccb463}">
 		<property name="filterTypeA">
