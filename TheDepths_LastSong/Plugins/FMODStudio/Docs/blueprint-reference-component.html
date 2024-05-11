@@ -18,6 +18,7 @@
 <li class="manual-current-chapter manual-inactive-chapter"><a href="blueprint-reference.html">Blueprint Reference</a><ul class="subchapters"><li><a href="blueprint-reference-bus.html">Bus</a></li><li><a href="blueprint-reference-common.html">Common</a></li><li class="manual-current-chapter manual-active-chapter"><a href="blueprint-reference-component.html">Component</a></li><li><a href="blueprint-reference-eventinstance.html">Event Instance</a></li><li><a href="blueprint-reference-asynchronous-loading.html">Asynchronous Loading</a></li><li><a href="blueprint-reference-enums.html">Enums</a></li><li><a href="blueprint-reference-structs.html">Structs</a></li><li><a href="blueprint-reference-utilities.html">Utilities</a></li></ul></li>
 <li><a href="platform-specifics.html">Platform Specifics</a></li>
 <li><a href="troubleshooting.html">Troubleshooting</a></li>
+<li><a href="audiolink.html">AudioLink</a></li>
 <li><a href="glossary.html">Glossary</a></li>
 </ul>
 </div>
@@ -30,6 +31,7 @@
 <li><span><a class="apilink" href="blueprint-reference-component.html#get-length" title="Get the event length in milliseconds.">Get Length</a> Get the event length in milliseconds.</span></li>
 <li><span><a class="apilink" href="blueprint-reference-component.html#get-parameter" title="Get parameter value from the Event.">Get Parameter</a> Get parameter value from the Event.</span></li>
 <li><span><a class="apilink" href="blueprint-reference-component.html#get-parameter-value" title="Get parameter value from the Event.">Get Parameter Value</a> Get parameter value from the Event.</span></li>
+<li><span><a class="apilink" href="blueprint-reference-component.html#get-paused" title="Get the paused state of the audio component.">Get Paused</a> Get the paused state of the audio component.</span></li>
 <li><span><a class="apilink" href="blueprint-reference-component.html#get-property" title="Get a property of the Event.">Get Property</a> Get a property of the Event.</span></li>
 <li><span><a class="apilink" href="blueprint-reference-component.html#get-timeline-position" title="Get the timeline position in milliseconds.">Get Timeline Position</a> Get the timeline position in milliseconds.</span></li>
 <li><span><a class="apilink" href="blueprint-reference-component.html#is-playing" title="Return true if this component is currently playing an event.">Is Playing</a> Return true if this component is currently playing an event.</span></li>
@@ -102,6 +104,17 @@
 <dt>FinalValue</dt>
 <dd>Final combined parameter value.</dd>
 </dl>
+<h2 api="struct" id="get-paused"><a href="#get-paused">Get Paused</a></h2>
+<p>Get the paused state of the audio component.</p>
+<p><img alt="Set Paused" src="images/get-paused.png" /></p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="kt">bool</span> <span class="nf">GetPaused</span><span class="p">();</span>
+</pre></div>
+
 <h2 api="function" id="get-property"><a href="#get-property">Get Property</a></h2>
 <p>Get a property of the Event.</p>
 <p><img alt="Get Property" src="images/get-property.png" /></p>
@@ -335,7 +348,7 @@
 <div class="highlight language-cpp"><pre><span></span><span class="kt">void</span> <span class="nf">Stop</span><span class="p">();</span>
 </pre></div></div>
 
-<p class="manual-footer">Unreal Integration 2.02.18 (2023-10-02). &copy; 2023 Firelight Technologies Pty Ltd.</p>
+<p class="manual-footer">Unreal Integration 2.02.22 (2024-05-05). &copy; 2024 Firelight Technologies Pty Ltd.</p>
 </body>
 </html>
 

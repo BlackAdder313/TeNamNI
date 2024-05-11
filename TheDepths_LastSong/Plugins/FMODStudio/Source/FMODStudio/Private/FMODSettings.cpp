@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
 
 #include "FMODSettings.h"
 #include "Misc/Paths.h"
@@ -61,6 +61,7 @@ UFMODSettings::UFMODSettings(const FObjectInitializer &ObjectInitializer)
     , ContentBrowserPrefix(TEXT("/Game/FMOD/"))
     , MasterBankName(TEXT("Master"))
     , LoggingLevel(LEVEL_WARNING)
+    , bFMODAudioLinkEnabled(false)
 {
     BankOutputDirectory.Path = TEXT("FMOD");
 }

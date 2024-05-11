@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
 
 #include "AssetTypeActions_FMODEvent.h"
 #include "AssetTypeActions_Base.h"
@@ -7,9 +7,9 @@
 #include "FMODUtils.h"
 #include "FMODStudioModule.h"
 #include "FMODStudioEditorModule.h"
-#include "UnrealEd/Public/Editor.h"
+#include "Editor.h"
 #include "Framework/MultiBox/MultiBoxBuilder.h"
-#include "EditorStyle/Public/EditorStyleSet.h"
+#include "Editor/EditorStyle/Public/EditorStyleSet.h"
 
 #define LOCTEXT_NAMESPACE "AssetTypeActions"
 

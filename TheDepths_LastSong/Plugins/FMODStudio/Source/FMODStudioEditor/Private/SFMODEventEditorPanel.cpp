@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
 
 #include "SFMODEventEditorPanel.h"
 #include "FMODStudioModule.h"
@@ -6,7 +6,7 @@
 #include "Input/Reply.h"
 #include "Widgets/Input/SNumericEntryBox.h"
 #include "Widgets/Layout/SExpandableArea.h"
-#include "EditorStyle/Public/EditorStyleSet.h"
+#include "Editor/EditorStyle/Public/EditorStyleSet.h"
 #include "Widgets/Input/SButton.h"
 #include "Widgets/Layout/SScrollBox.h"
 #include "fmod_studio.hpp"

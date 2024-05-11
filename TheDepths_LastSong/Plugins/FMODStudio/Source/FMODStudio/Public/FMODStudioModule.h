@@ -1,4 +1,4 @@
-// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2023.
+// Copyright (c), Firelight Technologies Pty, Ltd. 2012-2024.
 
 #pragma once
 
@@ -71,11 +71,6 @@ public:
 	 * Set system paused (for PIE pause)
 	 */
     virtual void SetSystemPaused(bool paused) = 0;
-
-    /**
-	 * Called when user changes any studio settings
-	 */
-    virtual void RefreshSettings() = 0;
 
     /**
 	 * Called when we enter of leave PIE mode
@@ -169,8 +164,12 @@ public:
     /** Get default locale. */
     virtual FString GetDefaultLocale() = 0;
 
-
 #if WITH_EDITOR
+    /** Multicast delegate that is triggered before the module is shutdown. */
+    virtual FSimpleMulticastDelegate &PreEndPIEEvent() = 0;
+
+    virtual void PreEndPIE() = 0;
+
     /** Called by the editor module when banks have been modified on disk */
     virtual void ReloadBanks() = 0;
 
